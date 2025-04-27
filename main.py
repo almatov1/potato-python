@@ -28,7 +28,7 @@ def preprocess_image_from_bytes(image_bytes):
         return None
 
 try:
-    model = tf.keras.models.load_model('models/weed_model_efficientnet-2.keras')
+    model = tf.keras.models.load_model('models/weed_model_efficientnet-3.keras')
 except Exception as e:
     print(f"Error loading model: {e}")
     model = None
